@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html,body {
+   height: 100%;
+   width: 100%;
+   font-family: 'Poppins', sans-serif;
+}
+body{
+    background: url("https://c4.wallpaperflare.com/wallpaper/615/294/495/artwork-deer-antlers-forest-wallpaper-preview.jpg");
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#wrapper{
+    height:370px;
+    width:355px;
+    background: transparent;
+    border:2px solid rgba(255,255,255,0.2);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+}
+h1{
+    margin-top:20px;
+    text-align: center;
+    font-weight: bold;
+    color:white;
+}
+.inp1{
+    height:40px;
+    width:100%;
+    padding:8px;
+    padding-left: 20px;
+    padding-right: 50px;
+    font-size:15px;
+    background: transparent;
+    border:none;
+    outline:none;
+    border:2px solid rgba(255,255,255,0.2);
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin-top:18px;
+    color:white;
+}
+.inp1::placeholder{
+    color:white;
+}
+#inp{
+    position: relative;
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+    flex-direction: column;
+}
+#rem_for{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:2px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+#but{
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+button{
+    height:40px;
+    width: 100%;
+    margin: 10px 0;
+    border:none;
+    outline:none;
+    font-weight:600;
+    font-family: 'Poppins'; 
+    border-radius: 20px;
+    transition: scale ease 200ms;
+}
+#register{
+    margin-top:10px;
+    color:white;
+    font-size:14px;
+    text-align: center;
+}
+#reg{
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    text-decoration: underline;
+}
+button:hover{
+    scale: 1.03;
+}
+button:active{
+    scale: 0.98;
+}
+#i{
+    position:absolute;
+    right:9%;
+    top:38px;
+}
+#i22{
+    position: absolute;
+    right: 10%;
+    bottom: 35px;
+    transition: scale ease 200ms;
+}
+#i22:active{
+    scale:0.90;
+}
